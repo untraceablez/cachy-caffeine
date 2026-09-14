@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Cachy Caffeine
+Comment=Made in Python. Prevents screen lock and auto-suspend while active
+Exec=cachy-caffeine
+Icon=caffeine-cup-empty
+Terminal=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=true
