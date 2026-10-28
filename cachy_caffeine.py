@@ -30,13 +30,13 @@ class CachyCaffeine:
 
         self.menu = Gtk.Menu()
 
-        self.toggle_item = Gtk.MenuItem(label="Ativar cafeine")
+        self.toggle_item = Gtk.MenuItem(label="Enable caffeine")
         self.toggle_item.connect("activate", self.on_toggle)
         self.menu.append(self.toggle_item)
 
         self.menu.append(Gtk.SeparatorMenuItem())
 
-        quit_item = Gtk.MenuItem(label="Sair")
+        quit_item = Gtk.MenuItem(label="Quit")
         quit_item.connect("activate", self.on_quit)
         self.menu.append(quit_item)
 
@@ -71,11 +71,11 @@ class CachyCaffeine:
         icon_name = ICON_FULL if active else ICON_EMPTY
         # set_icon_full() reliably emits the NewIcon signal on AyatanaAppIndicator;
         # caffeine-ng's older bound API sometimes skipped it, leaving the tray stale.
-        self.indicator.set_icon_full(icon_name, "Cafeine ativo" if active else "Cafeine inativo")
+        self.indicator.set_icon_full(icon_name, "Caffeine active" if active else "Caffeine inactive")
 
-        self.toggle_item.set_label("Desativar cafeine" if active else "Ativar cafeine")
+        self.toggle_item.set_label("Disable caffeine" if active else "Enable caffeine")
         self.indicator.set_title(
-            "Cachy Caffeine - ativo" if active else "Cachy Caffeine - inativo"
+            "Cachy Caffeine - active" if active else "Cachy Caffeine - inactive"
         )
 
     def on_quit(self, _widget):

@@ -53,5 +53,5 @@ application menu entry.
 
 ## Usage
 
-Click the tray icon to open the menu and choose "Ativar cafeine" / "Desativar
-cafeine" (enable/disable caffeine — menu labels are currently in Portuguese).
+Click the tray icon to open the menu and choose "Enable caffeine" / "Disable
+caffeine". "Quit" exits the app.

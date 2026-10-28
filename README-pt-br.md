@@ -53,5 +53,5 @@ uma entrada no menu de aplicativos.
 
 ## Uso
 
-Clique no ícone da bandeja para abrir o menu e escolher "Ativar cafeine" /
-"Desativar cafeine".
+Clique no ícone da bandeja para abrir o menu e escolher "Enable caffeine" /
+"Disable caffeine".
