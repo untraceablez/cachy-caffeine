@@ -6,4 +6,4 @@ rm -f "$HOME/.local/bin/cachy-caffeine"
 rm -f "$HOME/.config/autostart/cachy-caffeine.desktop"
 rm -f "$HOME/.local/share/applications/cachy-caffeine.desktop"
 
-echo "Desinstalado."
+echo "Uninstalled."

@@ -28,4 +28,4 @@ cp "$AUTOSTART_DIR/cachy-caffeine.desktop" "$APPS_DIR/cachy-caffeine.desktop"
 
 update-desktop-database "$APPS_DIR" 2>/dev/null || true
 
-echo "Instalado. Rode 'cachy-caffeine', procure 'Cachy Caffeine' no menu, ou reinicie a sessao para o autostart pegar."
+echo "Installed. Run 'cachy-caffeine', find 'Cachy Caffeine' in your app menu, or log out and back in for autostart to take effect."
